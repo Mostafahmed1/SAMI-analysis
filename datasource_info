@@ -1,0 +1,15 @@
+A brief about the dataset…
+
+I got a dataset from the SIPRI platform, which contains clean and trusted data about the transfer process between the supplier and recipient countries across the world from 1995 to 2025.
+With some valuable fields such as
+-	TIV (Trend Indicator Value): It is a measurement unit used by SIPRI to estimate the volume of international arms transfers, not their financial value
+-	Weapon Status (new, second-hand but modernized_and_second-hand)
+-	Year of order
+-	Year of delivery
+
+Added columns:
+1-	Weapons Category contains 11 values
+2-	SAMI Category: aggregation of the 11 standard categories to SAMI ones (Aerospace, Land, Sea, Advanced Electronics and Defense)  
+3-	Continental
+4-	Decade
+5-	Orders Batches
